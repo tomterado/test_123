@@ -56,6 +56,20 @@ p {
   transform: rotate(-20deg);
 }
 
+.stickyImage {
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.devImages {
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .oLetter {
   height: 200px;
   /* position: relative;
@@ -177,6 +191,29 @@ a {
   /* For mobile phones: */
   [class*="heroContainer"] {
     height: 100vh;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  /* For mobile phones: */
+  [class*="caseStudyHeroContainer"] {
+    height: 80vh;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  /* For mobile phones: */
+  [class*="devImages"] {
+    height: 200px;
+    padding-bottom: 1rem;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  /* For mobile phones: */
+  [class*="stickyImage"] {
+    width: 300px;
+    height: 200px;
   }
 }
 
